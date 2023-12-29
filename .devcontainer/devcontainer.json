@@ -11,20 +11,7 @@
 			"installMaven": "true",
 			"installGradle": "false"
 		},
-		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {
-			"version": "latest",
-			"jdkVersion": "latest",
-			"jdkDistro": "oracle"
-		}
-	},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"streetsidesoftware.code-spell-checker",
-				"vscjava.vscode-java-pack",
-				"GitHub.copilot"
-			]
-		}
+		"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
